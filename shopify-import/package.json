@@ -1,6 +1,6 @@
 {
   "name": "@reima-ecom/shopify-import",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "",
   "main": "index.js",
   "type": "module",
@@ -10,8 +10,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/reima-ecom/reima-us.git",
-    "directory": "packages/shopify-import"
+    "url": "git://github.com/reima-ecom/platform-legacy.git",
+    "directory": "shopify-import"
   },
   "scripts": {
     "build": "node --experimental-modules ./index.js",

@@ -1,6 +1,6 @@
 {
   "name": "@reima-ecom/import-reima-world",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "type": "module",
@@ -21,8 +21,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "contentful": "^7.14.0",
-    "@reima-ecom/lib": "^1.0.0"
+    "@reima-ecom/lib": "^1.0.0",
+    "contentful": "^7.14.0"
   },
   "devDependencies": {
     "@reima-ecom/run-tests": "^1.0.0"

@@ -1,0 +1,15 @@
+{
+  "name": "@reima-solution-sales/test-http",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "bin": "./cmd.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"No tests here...\"",
+    "start": "node cmd.js tests"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}

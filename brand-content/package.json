@@ -1,0 +1,22 @@
+{
+  "name": "@reima-solution-sales/brand-content",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "node --experimental-modules ./index.js",
+    "test": "run-tests --no-unit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "contentful": "^7.14.0",
+    "@reima-solution-sales/lib": "^1.0.0"
+  },
+  "devDependencies": {
+    "@reima-solution-sales/run-tests": "^1.0.0"
+  }
+}

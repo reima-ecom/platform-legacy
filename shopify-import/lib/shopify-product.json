@@ -1,0 +1,43 @@
+{
+  "id": "gid:\/\/shopify\/Product\/1586955943991",
+  "handle": "beanie-hattara",
+  "title": "Kids' beanie Hattara",
+  "descriptionHtml": "\u003cp\u003eClassic kids' beanie in cool colours.\u003c\/p\u003e\n[--Read More--]\n\u003cp\u003eKeep the chill off with this kids' cotton beanie. Without a lining, it's lightweight and super comfortable. The classic style comes in great colours!\u003c\/p\u003e\n[product][info]\n\u003cul\u003e\n\u003cli\u003eKids' and juniors' beanie\u003c\/li\u003e\n\u003cli\u003eElastic cotton knit\u003c\/li\u003e\n\u003cli\u003eReima logo badge\u003c\/li\u003e\n\u003c\/ul\u003e\n[product][mats]\n\u003cp\u003e\u003cstrong\u003eMaterial:\u003c\/strong\u003e\u003cbr\u003e100% cotton\u003c\/p\u003e\n[product][care]\n\u003cp\u003e\u003cstrong\u003eCare label instructions:\u003c\/strong\u003e\u003c\/p\u003e\n\u003cp\u003eWash separately inside out. Reshape to dry. Shrinkage 5%.\u003c\/p\u003e",
+  "tags": [
+    "Category:Beanie",
+    "Category:Headwear",
+    "Collection:Autumn2019",
+    "Collection:Spring2019",
+    "Collection:Spring2020",
+    "Collection:Winter2019",
+    "Color:Black",
+    "Color:Grey",
+    "Color:Orange",
+    "Feature:Breathable",
+    "Feature:Elastic material",
+    "juniors",
+    "ProductLine:Kids",
+    "ProductLine:Toddlers",
+    "S19",
+    "SizeHeadwear:48\/50",
+    "SizeHeadwear:52\/54",
+    "SizeHeadwear:56\/58",
+    "tax:clothing",
+    "TopCategory:Accessories"
+  ],
+  "onlineStoreUrl": "http:\/\/us.reima.com\/products\/beanie-hattara",
+  "legacyResourceId": "1586955943991",
+  "publishedOnCurrentPublication": true,
+  "priceRange": {
+    "minVariantPrice": {
+      "amount": "1995.0"
+    },
+    "maxVariantPrice": {
+      "amount": "1995.0"
+    }
+  },
+  "seo": {
+    "title": null,
+    "description": "Classic kids' beanie in cool colours. Keep the chill off with this kids' cotton beanie. Without a lining, it's lightweight and super comfortable. The classic style comes in great colours!"
+  }
+}

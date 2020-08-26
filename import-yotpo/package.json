@@ -1,0 +1,32 @@
+{
+  "name": "@reima-solution-sales/import-yotpo",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "bin": "./cmd.js",
+  "type": "module",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/reima-solution-sales/platform-legacy.git",
+    "directory": "import-yotpo"
+  },
+  "scripts": {
+    "test": "run-tests",
+    "build": "node --experimental-modules ./index.js"
+  },
+  "devDependencies": {
+    "ava": "^3.9.0"
+  },
+  "eslintConfig": {
+    "rules": {
+      "no-console": "off"
+    }
+  },
+  "dependencies": {
+    "@reima-solution-sales/lib": "^1.0.0",
+    "node-fetch": "^2.6.0"
+  }
+}

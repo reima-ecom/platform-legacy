@@ -1,0 +1,35 @@
+{
+  "name": "@reima-solution-sales/lib",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "run-tests"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  },
+  "repository" : {
+    "type" : "git",
+    "url": "git://github.com/reima-solution-sales/reima-us.git",
+    "directory": "packages/shopify-import"
+  },
+  "author": "Eric Selin",
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "yaml": "^1.10.0"
+  },
+  "devDependencies": {
+    "ava": "^3.5.0"
+  },
+  "ava": {
+    "nodeArguments": [
+      "--experimental-modules",
+      "--experimental-json-modules"
+    ],
+    "ignoredByWatcher": [
+      "public"
+    ]
+  }
+}

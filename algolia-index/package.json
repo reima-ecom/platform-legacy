@@ -1,0 +1,16 @@
+{
+  "name": "algolia-index",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "update-index": "node update-index.js",
+    "test": "run-tests --no-unit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "algoliasearch": "^4.1.0"
+  }
+}

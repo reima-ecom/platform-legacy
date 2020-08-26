@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "noEmit": true,
+    "maxNodeModuleJsDepth": 0,
+    "module": "esnext"
+  },
+  "include": [
+    "*.js"
+  ]
+}

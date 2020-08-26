@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "noEmit": true,
+    "moduleResolution": "node",
+    "maxNodeModuleJsDepth": 1,
+    "module": "es2015"
+  },
+  "include": [
+    "*.js",
+    "*.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

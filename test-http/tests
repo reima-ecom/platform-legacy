@@ -1,0 +1,8 @@
+200 https://us.reima.com
+200 https://us.reima.com/
+404 https://us.reima.com/notanurl
+301 https://us.reima.com/collections/junior Location:https://us.reima.com/collections/kids
+301 https://us.reima.com/collections/junior/ Location:https://us.reima.com/collections/kids
+301 https://us.reima.com/collections/junior/subdir Location:https://us.reima.com/collections/kids
+301 https://us.reima.com/trailing-slash/ Location:https://us.reima.com/trailing-slash
+301 https://us.reima.com/qry/?foo=bar Location:https://us.reima.com/qry?foo=bar

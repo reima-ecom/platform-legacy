@@ -1,6 +1,6 @@
 {
   "name": "@reima-ecom/update-algolia",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"

@@ -2,7 +2,6 @@
   "name": "@reima-solution-sales/brand-content",
   "version": "1.0.0",
   "description": "",
-  "private": true,
   "main": "index.js",
   "type": "module",
   "bin": "cmd.js",

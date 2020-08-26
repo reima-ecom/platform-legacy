@@ -2,9 +2,16 @@
   "name": "@reima-solution-sales/test-http",
   "version": "1.0.0",
   "license": "MIT",
-  "private": true,
   "bin": "./cmd.js",
   "type": "module",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/reima-solution-sales/platform-legacy.git",
+    "directory": "test-http"
+  },
   "scripts": {
     "test": "echo \"No tests here...\"",
     "start": "node cmd.js tests"

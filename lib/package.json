@@ -1,6 +1,6 @@
 {
   "name": "@reima-ecom/lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "type": "module",
   "main": "index.js",
@@ -12,8 +12,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/reima-ecom/reima-us.git",
-    "directory": "packages/shopify-import"
+    "url": "git://github.com/reima-ecom/platform-legacy.git",
+    "directory": "lib"
   },
   "author": "Eric Selin",
   "dependencies": {

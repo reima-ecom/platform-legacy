@@ -5,6 +5,15 @@
   "private": true,
   "main": "index.js",
   "type": "module",
+  "bin": "cmd.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/reima-solution-sales/platform-legacy.git",
+    "directory": "import-reima-world"
+  },
   "scripts": {
     "build": "node --experimental-modules ./index.js",
     "test": "run-tests --no-unit"

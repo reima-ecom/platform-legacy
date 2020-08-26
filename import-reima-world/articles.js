@@ -4,7 +4,6 @@ import { getContentWriter, getImageDownloader } from '@reima-solution-sales/lib'
 const CONTENTFUL_TOKEN = process.env.CONTENTFUL_TOKEN_WORLD;
 if (!CONTENTFUL_TOKEN) throw new Error('Need contentful access token CONTENTFUL_TOKEN_WORLD');
 const CONTENTFUL_SPACE = '86bcuchr2qmp';
-const CONTENT_DIR = 'content';
 
 /**
  * @param {import('contentful').Entry} blockEntry
@@ -105,10 +104,14 @@ const client = contentful.createClient({
   space: CONTENTFUL_SPACE,
   accessToken: CONTENTFUL_TOKEN,
 });
-const write = getContentWriter(CONTENT_DIR);
-const downloadResources = getImageDownloader(CONTENT_DIR);
 
-const cmdArticles = async () => {
+/**
+ * @param {string} contentDir Content directory to output `blogs` content to
+ */
+const cmdArticles = async (contentDir) => {
+  const write = getContentWriter(contentDir);
+  const downloadResources = getImageDownloader(contentDir);
+
   const articles = await getArticles(client);
 
   // write blog category index pages

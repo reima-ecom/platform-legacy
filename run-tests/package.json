@@ -2,9 +2,16 @@
   "name": "@reima-ecom/run-tests",
   "version": "1.0.0",
   "license": "MIT",
-  "private": true,
   "bin": "./cmd.js",
   "type": "module",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/reima-ecom/platform-legacy.git",
+    "directory": "run-tests"
+  },
   "scripts": {
     "test": "run-tests --no-unit"
   },

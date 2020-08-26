@@ -1,0 +1,23 @@
+{
+  "name": "@reima-solution-sales/update-algolia",
+  "version": "1.0.0",
+  "description": "",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/reima-solution-sales/platform-legacy.git",
+    "directory": "update-algolia"
+  },
+  "scripts": {
+    "update-index": "node update-index.js",
+    "test": "run-tests --no-unit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "algoliasearch": "^4.1.0"
+  }
+}

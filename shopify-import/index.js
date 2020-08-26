@@ -2,7 +2,7 @@
 /* eslint-disable no-restricted-syntax */
 import {
   getCache, getContentWriter, setResourcesToLocalSrc, mapPipe, getResourceDownloader,
-} from '@reima-solution-sales/lib';
+} from '@reima-ecom/lib';
 import { getProductsJsonlStream, getCollectionsJsonlStream, cancelCurrentBulkOperation } from './lib/import.js';
 import {
   getProductMapper, imagesToResources, getType, productsJsonlToArray,

@@ -1,5 +1,5 @@
 {
-  "name": "@reima-solution-sales/update-algolia",
+  "name": "@reima-ecom/update-algolia",
   "version": "1.0.0",
   "description": "",
   "publishConfig": {
@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/reima-solution-sales/platform-legacy.git",
+    "url": "git://github.com/reima-ecom/platform-legacy.git",
     "directory": "update-algolia"
   },
   "scripts": {

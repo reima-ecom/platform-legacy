@@ -1,5 +1,5 @@
 import contentful from 'contentful';
-import { getContentWriter, getImageDownloader } from '@reima-solution-sales/lib';
+import { getContentWriter, getImageDownloader } from '@reima-ecom/lib';
 
 const CONTENTFUL_TOKEN = process.env.CONTENTFUL_TOKEN_WORLD;
 if (!CONTENTFUL_TOKEN) throw new Error('Need contentful access token CONTENTFUL_TOKEN_WORLD');

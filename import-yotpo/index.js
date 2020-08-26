@@ -1,4 +1,4 @@
-import { getCache, getFrontmatterAppender } from '@reima-solution-sales/lib';
+import { getCache, getFrontmatterAppender } from '@reima-ecom/lib';
 import { dirname, basename } from 'path';
 import getReviews from './get-reviews.js';
 import mapProductIdsToHandles from './id-to-handle-map.js';

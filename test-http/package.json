@@ -1,5 +1,5 @@
 {
-  "name": "@reima-solution-sales/test-http",
+  "name": "@reima-ecom/test-http",
   "version": "1.0.0",
   "license": "MIT",
   "bin": "./cmd.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/reima-solution-sales/platform-legacy.git",
+    "url": "git://github.com/reima-ecom/platform-legacy.git",
     "directory": "test-http"
   },
   "scripts": {

@@ -1,6 +1,6 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
 import test from 'ava';
-import { getCache } from '@reima-solution-sales/lib';
+import { getCache } from '@reima-ecom/lib';
 import mapProductIdsToHandles from './id-to-handle-map.js';
 
 const cache = getCache('./test');

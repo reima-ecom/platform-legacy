@@ -1,5 +1,5 @@
 {
-  "name": "@reima-solution-sales/shopify-import",
+  "name": "@reima-ecom/shopify-import",
   "version": "1.2.1",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/reima-solution-sales/reima-us.git",
+    "url": "git://github.com/reima-ecom/reima-us.git",
     "directory": "packages/shopify-import"
   },
   "scripts": {
@@ -19,7 +19,7 @@
   },
   "author": "Eric Selin",
   "dependencies": {
-    "@reima-solution-sales/lib": "^1.0.0",
+    "@reima-ecom/lib": "^1.0.0",
     "node-fetch": "^2.6.0"
   },
   "devDependencies": {

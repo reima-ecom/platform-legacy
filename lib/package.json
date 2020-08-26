@@ -1,5 +1,5 @@
 {
-  "name": "@reima-solution-sales/lib",
+  "name": "@reima-ecom/lib",
   "version": "1.0.0",
   "description": "",
   "type": "module",
@@ -8,11 +8,11 @@
     "test": "run-tests"
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/"
   },
-  "repository" : {
-    "type" : "git",
-    "url": "git://github.com/reima-solution-sales/reima-us.git",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/reima-ecom/reima-us.git",
     "directory": "packages/shopify-import"
   },
   "author": "Eric Selin",

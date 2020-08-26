@@ -1,5 +1,5 @@
 {
-  "name": "@reima-solution-sales/import-reima-world",
+  "name": "@reima-ecom/import-reima-world",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/reima-solution-sales/platform-legacy.git",
+    "url": "git://github.com/reima-ecom/platform-legacy.git",
     "directory": "import-reima-world"
   },
   "scripts": {
@@ -22,9 +22,9 @@
   "license": "ISC",
   "dependencies": {
     "contentful": "^7.14.0",
-    "@reima-solution-sales/lib": "^1.0.0"
+    "@reima-ecom/lib": "^1.0.0"
   },
   "devDependencies": {
-    "@reima-solution-sales/run-tests": "^1.0.0"
+    "@reima-ecom/run-tests": "^1.0.0"
   }
 }

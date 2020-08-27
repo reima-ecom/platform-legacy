@@ -21,8 +21,8 @@ const main = async () => {
   // @ts-ignore
   const client = algoliasearch(appId, ALGOLIA_ADMIN_KEY);
 
-  // @ts-ignore
-  const objects = require(filePath);
+  const resolvedPath = require.resolve(filePath, { paths: [process.cwd()] });
+  const objects = require(resolvedPath);
 
   const index = client.initIndex(indexName);
   await index.replaceAllObjects(objects);
